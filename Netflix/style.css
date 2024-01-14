@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+
+
+.main{
+   
+    background-image:url("assets/background.jpg") ;
+    height: 100vh;
+    position: relative;
+    background-size:100vw ;
+}
+.main.box{
+    height:80vh;
+    width:100%;
+    opacity: 0.066;
+    background-color: black;
+    position: absolute;
+    top:0;
+}
+nav{
+    max-width: 80vw;
+    display:flex;
+    margin: auto;
+    justify-content: space-around;
+    height: 62px  ;    
+   }
+
+   nav image{
+    color:red;
+    width: 114px;
+    position:relative;
+    z-index: 10;
+
+
+   }
+   nav button{
+    position:relative;
+    z-index: 10;
+    background-color:red;
+     width:300px;
+   }
+   .hero{
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(204, 45, 13);
+    position :relative;
+    gap: 23px;
+   }
+   .hero :first-child{
+    font-weight: bolder;
+    font-size:48px;
+   }
+   .hero :nth-child(2){
+    font-weight: 400;
+    font-size:24px;
+   } 
+   .hero :nth-child(3){
+    font-weight: 300;
+    font-size:24px;
+   }
